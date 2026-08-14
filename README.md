@@ -112,7 +112,17 @@ These included:
 - Applying role-based access controls
 - Strengthening password policies
 - Enabling system logging and auditing
+### Windows Defender Firewall Configuration
 
+Windows Defender Firewall with Advanced Security was used to manage inbound and outbound network traffic. Custom outbound rules were configured to block unnecessary or higher-risk network services, while inbound rules were reviewed to support required services such as Active Directory.
+
+#### Outbound Security Rules
+
+![Windows Defender Firewall Outbound Rules](06-firewall-outbound-block-rules.png)
+
+#### Inbound Firewall Rules
+
+![Windows Defender Firewall Inbound Rules](07-firewall-inbound-rules.png)
 ## Security Testing
 
 The environment was tested against several attack scenarios in a controlled
