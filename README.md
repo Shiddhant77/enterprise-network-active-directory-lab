@@ -68,6 +68,11 @@ Active Directory was configured for the `fannet.local` domain with organizationa
 
 Group Policy was used to strengthen account security and enforce password
 requirements across domain-connected systems.
+### Group Policy – Password Security
+
+Group Policy was used to enforce domain password security requirements. The lab configuration included a minimum password length of 12 characters and enabled password complexity requirements.
+
+![Group Policy Password Policy](03-group-policy-password-policy.png)
 
 ## DNS, DHCP & Server Configuration
 
