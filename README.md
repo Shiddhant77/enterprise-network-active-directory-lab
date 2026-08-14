@@ -89,6 +89,11 @@ The lab included:
 
 These services were tested to verify that clients could obtain network
 configuration, resolve names, and access network resources.
+### IIS Web & FTP Server Configuration
+
+IIS was configured on Windows Server to host the FanNet website and an FTP service. The lab included configuring site bindings and validating access to the hosted services.
+
+![IIS Web and FTP Server Configuration](04-iis-web-ftp-server.png)
 
 ## Network Security & Hardening
 
