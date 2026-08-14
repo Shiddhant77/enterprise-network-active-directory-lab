@@ -94,7 +94,11 @@ configuration, resolve names, and access network resources.
 IIS was configured on Windows Server to host the FanNet website and an FTP service. The lab included configuring site bindings and validating access to the hosted services.
 
 ![IIS Web and FTP Server Configuration](04-iis-web-ftp-server.png)
+### Client Network & DNS Configuration
 
+Windows client systems were configured with IPv4 addressing, a default gateway, and the internal DNS server to support connectivity and name resolution within the FanNet environment.
+
+![Windows Client IP and DNS Configuration](05-client-ip-dns-configuration.png)
 ## Network Security & Hardening
 
 Several defensive controls were implemented to reduce the attack surface.
