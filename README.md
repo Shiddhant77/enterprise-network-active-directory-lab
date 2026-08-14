@@ -134,6 +134,12 @@ Nmap was used to identify hosts, services, and exposed ports.
 
 Wireshark was used to inspect network traffic and analyze communication between
 systems.
+#### Nmap Service Discovery
+
+Nmap was used to perform service discovery against systems in the lab environment. The scan identified exposed Windows services including DNS, Kerberos, RPC, SMB, and LDAP, providing visibility into the services available on the target system.
+
+![Nmap Network Reconnaissance](08-nmap-network-reconnaissance.png)
+
 
 ### Man-in-the-Middle Testing
 
@@ -142,6 +148,11 @@ unauthenticated ARP communication can allow traffic interception.
 
 The exercise helped demonstrate the importance of network segmentation,
 monitoring, and secure network configuration.
+#### ARP Spoofing Demonstration
+
+ARP spoofing was performed in the isolated lab environment to demonstrate how manipulated ARP responses can position an attacker between network systems and potentially enable traffic interception.
+
+![ARP Spoofing MITM Test](09-arp-spoofing-mitm-test.png)
 
 ### Authentication Testing
 
