@@ -11,6 +11,11 @@ centralized user management, configure core network services, strengthen access
 controls, and test the environment against common network and application attacks.
 
 This was completed as a team-based academic project at Fanshawe College.
+## Network Architecture
+
+The lab environment was segmented into three primary security zones: **Internal, DMZ, and External**. This design separated internal systems from public-facing services and the external attack/testing environment.
+
+![FanNet Network Topology](01-network-topology.png)
 
 ## Technologies & Tools
 
