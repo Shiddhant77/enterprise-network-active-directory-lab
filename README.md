@@ -1,2 +1,170 @@
-# enterprise-network-active-directory-lab
-Enterprise network and Active Directory security lab featuring Windows Server, DNS, DHCP, Group Policy, network hardening, and security testing.
+# Enterprise Network & Active Directory Security Lab
+
+## Overview
+
+This project involved designing, configuring, and securing a simulated enterprise
+network environment for a fictional gaming company called FanNet.
+
+The original environment used a flat network with limited security controls.
+The goal of the project was to improve the network architecture, implement
+centralized user management, configure core network services, strengthen access
+controls, and test the environment against common network and application attacks.
+
+This was completed as a team-based academic project at Fanshawe College.
+
+## Technologies & Tools
+
+- Windows Server
+- Active Directory Domain Services (AD DS)
+- Group Policy
+- DNS
+- DHCP
+- IIS
+- Windows Defender Firewall
+- Kali Linux
+- Nmap
+- Wireshark
+- GNS3
+- Python
+- Hydra
+- hping3
+- arpspoof
+
+## Lab Objectives
+
+- Improve the security of a flat network architecture
+- Configure centralized user and access management
+- Implement role-based access controls
+- Configure DNS and DHCP services
+- Apply Group Policy security settings
+- Configure firewall rules and access controls
+- Reduce unnecessary network exposure
+- Enable security logging and auditing
+- Test the environment against common attack scenarios
+- Implement defensive controls and document remediation
+
+## Active Directory & Access Control
+
+Active Directory was used to provide centralized identity and access management.
+
+The environment included:
+
+- Domain user accounts
+- User groups and organizational roles
+- Role-based permissions
+- Principle of least privilege
+- Group Policy Objects (GPOs)
+- Password security policies
+
+Group Policy was used to strengthen account security and enforce password
+requirements across domain-connected systems.
+
+## DNS, DHCP & Server Configuration
+
+Core network services were configured to provide connectivity and resource access
+within the environment.
+
+The lab included:
+
+- DNS configuration for hostname resolution
+- DHCP configuration for automatic IP addressing
+- Windows Server configuration
+- IIS web server configuration
+- Client connectivity and name-resolution testing
+
+These services were tested to verify that clients could obtain network
+configuration, resolve names, and access network resources.
+
+## Network Security & Hardening
+
+Several defensive controls were implemented to reduce the attack surface.
+
+These included:
+
+- Changing default router and switch credentials
+- Disabling unnecessary ports and services
+- Configuring Windows Defender Firewall
+- Implementing network access-control rules
+- Applying role-based access controls
+- Strengthening password policies
+- Enabling system logging and auditing
+
+## Security Testing
+
+The environment was tested against several attack scenarios in a controlled
+academic lab.
+
+### Network Reconnaissance
+
+Nmap was used to identify hosts, services, and exposed ports.
+
+Wireshark was used to inspect network traffic and analyze communication between
+systems.
+
+### Man-in-the-Middle Testing
+
+ARP spoofing was demonstrated in the controlled environment to understand how
+unauthenticated ARP communication can allow traffic interception.
+
+The exercise helped demonstrate the importance of network segmentation,
+monitoring, and secure network configuration.
+
+### Authentication Testing
+
+A controlled FTP password attack was demonstrated using Hydra with a
+lab-generated wordlist.
+
+This demonstrated the risk of weak credentials and exposed authentication
+services.
+
+### Web Application Security
+
+A deliberately vulnerable web application was used to demonstrate SQL injection
+and the risks associated with passing unsanitized user input to database queries.
+
+### SYN Flood Testing
+
+hping3 was used in the isolated lab to demonstrate how large numbers of
+incomplete TCP connections can affect server availability.
+
+Wireshark was used to observe the resulting network traffic.
+
+## Defensive Improvements
+
+Following testing, several security improvements were evaluated or implemented:
+
+- Stronger password policies
+- Role-based access control
+- Network segmentation
+- Firewall and ACL configuration
+- Removal of unnecessary services
+- Improved logging and auditing
+- Server and endpoint hardening
+- Protection against common network attacks
+
+## Skills Demonstrated
+
+This project provided hands-on experience with:
+
+- Windows Server administration
+- Active Directory
+- User and group management
+- Group Policy
+- DNS and DHCP
+- TCP/IP networking
+- Network troubleshooting
+- Firewall configuration
+- Network traffic analysis
+- Security testing
+- System hardening
+- Technical documentation
+
+## Project Context
+
+This project was completed as part of my Cybersecurity Advanced Diploma at
+Fanshawe College.
+
+The project was completed in a team environment and involved designing,
+testing, securing, and documenting a simulated enterprise network.
+
+All security testing was performed in an isolated academic lab environment.
