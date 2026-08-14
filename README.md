@@ -15,7 +15,7 @@ This was completed as a team-based academic project at Fanshawe College.
 
 The lab environment was segmented into three primary security zones: **Internal, DMZ, and External**. This design separated internal systems from public-facing services and the external attack/testing environment.
 
-![FanNet Network Topology](01-network-topology.png.png)
+![FanNet Network Topology](01-network-topology.png)
 
 ## Technologies & Tools
 
