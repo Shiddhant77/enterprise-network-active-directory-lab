@@ -64,7 +64,7 @@ The environment included:
 
 Active Directory was configured for the `fannet.local` domain with organizational units representing different business departments, including Development, IT, and Management. User and computer accounts were organized by department to support centralized administration and role-based access control.
 
-![Active Directory Users and Computers](screenshots/02-active-directory-users-computers.png)
+![Active Directory Users and Computers](02-active-directory-users-computers.png)
 
 Group Policy was used to strengthen account security and enforce password
 requirements across domain-connected systems.
